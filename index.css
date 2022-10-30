@@ -1,0 +1,294 @@
+/* Role reset start*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Role reset end*/
+body {
+	background-image: url('bg.png');
+	background-repeat: no-repeat;
+	background-size: 100vw 100vh;
+	background-color: black;
+	background-attachment: fixed;
+}
+
+html {
+	height: 100%;
+	font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+	color: white;
+	font-size: 15vw;
+	font-family: 'Work Sans', sans-serif;
+	float: centre;
+}
+
+h2 {
+	color: white;
+	font-size: 45px;
+	font-family: 'Work Sans', sans-serif;
+	margin-top: 10px;
+}
+
+h3 {
+	color: white;
+	font-size: 30px;
+	font-family: 'Work Sans', sans-serif;
+	margin-top: 10px;
+	text-align: center;
+}
+h4 {
+	color: lightgrey;
+	font-size: 20px;
+	font-family: 'Work Sans', sans-serif;
+	margin-top: 10px;
+	text-align: left;
+	font-style: italic;
+	
+}
+p {
+	padding: 10px 0 10px 0;
+	color: white;
+	font-size: 20px;
+	font-family: 'Work Sans', sans-serif;
+	margin-bottom: 5px;
+
+}
+p2 {
+	padding: 10px 0 10px 0;
+	color: white;
+	text-align: center;
+	margin: 5px 0 10px 0;
+	
+	
+}
+
+input[type=text], input[type=password] {
+	width: 25%;
+	padding: 10px;
+	margin: 10px 100% 30px 0px;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+	border-radius: 15px;
+}
+
+input[type=radio] {
+	padding: 10px;
+	margin: 10px 100% 19px 0px;
+}	
+
+input[type=address] {
+	padding: 10px;
+	margin: 10px 100% 19px 0px;
+	border-radius: 15px;
+	width: 50%;
+
+}
+
+
+label {
+	float: left;
+	text-align: left;
+	
+}
+
+
+
+
+footer,
+.footer {
+	margin-top: 20px;
+	color: white;
+	font-size: 18px;
+	font-family: 'Work Sans', sans-serif;
+}
+
+/* Navbar start*/
+ul {
+	background-color: #360F2B;
+	overflow: hidden;
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
+	float: center;
+	border-radius: 25px;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 1vw 1vw;
+	text-decoration: none;
+	font-size: 3vw;
+	font-family: 'Work Sans', sans-serif;
+}
+
+/*Link styling start*/
+li a:hover {
+	font-weight: bold;
+}
+/* Navbar end*/
+
+a:link {
+  color: light-blue;
+}
+
+a:visited {
+  color: pink;
+}
+
+a:active {
+  color: yellow;
+}
+/*Link styling end*/
+
+.button {
+	color: white;
+	border: 2px solid #85101F;
+	line-height: 2.5rem;
+	border-radius: 20px;
+	padding: 0.25rem 0.5rem;
+	background: #85101F;
+	text-decoration: none;
+	transition: 100ms;
+}
+.button:hover {
+	filter: saturate(1.5);
+	transition: 100ms;
+}
+
+.button-register {
+	background: #85101F;
+	border: 2px solid #85101F;
+	padding: 0.5rem 0.75rem;
+	float: left;
+	border-radius: 10px;
+	text-decoration: none;
+	margin: 5px 10px 15px 0px;
+	transition: 100ms;
+
+}
+.button-register:hover {
+	filter: saturate(1.5);
+	transition: 100ms;
+
+}
+
+img {
+	border-radius: 20px;
+}
+
+div {
+	border-style: solid;
+}
+
+.radio {
+	border-color: #1d2123;	
+	border-style: inset;
+	border-width: 3px;
+	text-align: left;
+	padding-left: 30px;
+
+
+
+}
+
+.outer {
+width: 80vw;
+margin: auto;
+margin-top: 100;
+}
+
+.bg {
+text-align: center;
+width: 0%;
+}
+
+.inner {
+background-color: #1D2123;
+padding: 5px;
+width: 80vw;
+border-radius: 0 0 20px 20px;
+}
+
+.blog {
+	background-color: #1d2123;
+	padding: 10px;
+	width: 80vw;
+	margin-top: 5%;
+	border-radius: 20px;
+}
+.in-blog {
+	background-color: #2e3234;
+	padding: 10px;
+	margin-top: 5%;
+	border-radius: 15px
+
+}
+
+
+
+.outer:hover .bg {
+width: 101%;
+}
+
+@media screen and (max-width: 480px) {
+	.outer {
+		width: 99vw;
+		margin: 0;
+	}
+	.inner {
+		width: 99vw;
+		margin: 0;
+	}
+}
