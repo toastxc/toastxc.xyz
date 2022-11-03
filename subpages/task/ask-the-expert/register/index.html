@@ -19,19 +19,19 @@
               </a>
             </li>
             <li>
-              <a href="../../self-help/">Self Help
+              <a href="../../self-help/index.html">Self Help
               </a>
             </li>
             <li>
-              <a href="../../articles/">Articles
+              <a href="../../articles/index.html">Articles
               </a>
             </li>
             <li>
-              <a href="../../links/">Links
+              <a href="../../links/index.html">Links
               </a>
             </li>
             <li>
-              <a href="../">Ask the Expert
+              <a href="../index.html">Ask the Expert
               </a>
             </li>
           </ul>
@@ -53,22 +53,22 @@
   <div class="in-blog">
    
     <label for="username"><p2>Username</p2></label>
-    <input type="text" placeholder="Enter Username" name="username" required>
+    <input type="text" id="username" value="" placeholder="Enter Username" name="username" required>
 </br>
   <label for="email"><p2>Email</p2></label>
-  <input type="text" placeholder="Enter Email" name="email" required>
+  <input type="text" id="email" value="" placeholder="Enter Email" name="email" required>
 </br> 
     <label for="psw"><p2>Password</p2></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
+    <input type="password" id="password" value="" placeholder="Enter Password" name="psw" required>
 </br>
     <label for="psw-repeat"><p2>Repeat Password</p2></label>
     <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
 </br>
   <label for="first-name"><p2>First Name</p2></label>
-  <input type="password" placeholder="First Name" name="first-name" required>
+  <input type="password" id="fname" value="" placeholder="First Name" name="first-name" required>
 </br>
   <label for="last-name"><p2>Last Name</p2></label>
-  <input type="password" placeholder="Last Name" name="last-name" required>
+  <input type="password" id="lname" value="" placeholder="Last Name" name="last-name" required>
 </br>
 
     <form action="./index.html">
@@ -77,13 +77,13 @@
         <p2>
       
           <label for="male">Male</label><br>
-          <input type="radio" id="male" name="gender" value="male">
+          <input type="radio" id="male" value="" name="gender" value="male">
       
           <label for="female">Female</label><br>      
-          <input type="radio" id="female" name="gender" value="female">
+          <input type="radio" id="female" value="" name="gender" value="female">
       
           <label for="non-binary">Non Binary</label>
-          <input type="radio" id="non-binary" name="gender" value="non-binary">
+          <input type="radio" id="non-binary" value="" name="gender" value="non-binary">
      
         </p2>  
       </div>
@@ -91,11 +91,11 @@
 
   </br>
   <label for="address"><p2>Full address</p2></label>
-  <input type="address" placeholder="Country, State, Suburb, Street Name, Street Number" name="address" required>
+  <input type="address" id="address" value="" placeholder="Country, State, Suburb, Street Name, Street Number" name="address" required>
 </br>
 
 <label for="address"><p2>Phone Number</p2></label>
-<input type="password" placeholder="04XXXXXXXX" name="phone_num" required>
+<input type="password" id="phone" value="" placeholder="04XXXXXXXX" name="phone_num" required>
 </br>
 
 
@@ -105,14 +105,38 @@
   <br>
   <br>
   
-  <a href="" class="button-register">Register</a>
-  <a href="" class="button-register">Cancel</a>
+  <button onclick="login()">Register</button>
+  <button>Cancel</button>
 <br>
 <br>
 <br>
   </div>
   
+  <script>
+    function login() {
+   
+
+      var username = document.getElementById('username').value;
+      var email = document.getElementById('email').value;
+      var password = document.getElementById('password').value;
   
+      var fname = document.getElementById('fname').value;
+      var lname = document.getElementById('lname').value;
+      
+      
+      console.log(
+        "\nusername: ", username,
+        "\nemail: ", email, 
+        "\npassword: ",password, 
+        "\nfirstname ", fname, 
+        "\nlastname: ", lname,
+        );
+
+
+
+    }
+
+  </script>
 
     
 
