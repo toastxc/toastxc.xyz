@@ -1,0 +1,19 @@
+
+style = "config/global/style.css"
+
+# main holds the body of the document in main there are blocks which have properties
+[main]
+
+
+[[main.block]]
+style = "h1"
+text = "ToastXC"
+
+[[main.block]]
+from_str = "config/global/topnav.md"
+style = "html"
+
+# Main site info
+[[main.block]]
+from_str = "config/report/report.md"
+style = "md"
