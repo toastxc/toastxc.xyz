@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "command",
+            "name": "gen",
+            "program": "$PROJECT_DIR$/gen.sh",
+        },
+
+    ]
+}
