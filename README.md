@@ -1,8 +1,6 @@
 # toastxc.xyz
 
-This Github page is for version controlling and as a backup
-PRs will not be read or accepted
-
+This site was created using [Adduce](https://github.com/toastxc/Adduce)
 
 # issues
-Create an issue for anything relating to TXC
+Create an issue for anything relating to TXC services or inqueries
