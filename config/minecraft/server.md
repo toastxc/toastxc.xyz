@@ -1,5 +1,5 @@
 ## DivanMC
-Minecraft Network ( toastxc.xyz:22 )
+Minecraft Network ( mc.toastxc.xyz:22 )
 <div class="holder">
 
 ### Worlds

@@ -19,7 +19,7 @@ div {
 .topnav a {
     float: left;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 10px;
     text-decoration: none;
     font-size: 17px;
     align-item: center;
@@ -51,6 +51,7 @@ div.page {
     width: 800px;
 }
 
+
  @media only screen and (max-width: 900px) {
     div.page {
         margin: auto;
@@ -58,8 +59,40 @@ div.page {
     }
 }
 
+ @media only screen and (max-width: 500px) {
+    div.page {
+        margin: 0px;
+        width: 100%;
+        padding: 0px;
+
+    }
+ div.holder {
+        border-radius: 0%;
+        padding: 10px;
+        margin-left: -5px;
+        margin-right: -5px;
+
+    }
+
+ body {
+        padding: 0px;
+        margin: 0px;
+    }
+
+
+ div.topnav {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+
+ h2 {
+        margin-bottom: 0px;
+    }
+}
+
 
 body {
+    font-family: 'Trebuchet MS', sans-serif;
 	background-color: #222;
 	color: white;
 	padding: 4px;
@@ -95,6 +128,7 @@ a:hover {
 /* Markdown Styling */
 
 h1 {
+
     text-align: center;
     text-decoration-line: underline;
 }
@@ -135,3 +169,10 @@ nestquote {
 }
 
 
+
+
+footer {
+
+    text-align: center;
+
+}

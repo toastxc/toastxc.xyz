@@ -1,6 +1,6 @@
 
-style = "config/global/style.css"
-
+style = ["config/global/style.css"]
+head = ["config/global/head.html"]
 # main holds the body of the document in main there are blocks which have properties
 [main]
 
@@ -14,7 +14,6 @@ from_str = "config/global/topnav.md"
 style = "html"
 
 
-
 # Main site info
 [[main.block]]
 from_str = "config/index/aboutme.md"
@@ -22,6 +21,11 @@ style = "md"
 
 [[main.block]]
 style = "br"
+
 [[main.block]]
 style = "br"
 
+
+[[main.block]]
+from_str = "config/global/footer.html"
+style = "html"

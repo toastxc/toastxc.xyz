@@ -1,26 +1,26 @@
 
 style = ["config/global/style.css"]
 head = ["config/global/head.html"]
-
 [main]
 
-# title
+
 [[main.block]]
 style = "h1"
-text = "ToastXC"
-
-# topnav
-[[main.block]]
-from_str = "config/global/topnav.md"
-style = "html"
+text = "StatSite"
 
 
 # Main site info
 [[main.block]]
-from_str = "config/report/report.md"
+from_str = "config/statsite/main.md"
 style = "md"
 
-# copyright
+[[main.block]]
+style = "br"
+
+[[main.block]]
+style = "br"
+
+
 [[main.block]]
 from_str = "config/global/footer.html"
 style = "html"

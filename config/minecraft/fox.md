@@ -8,4 +8,7 @@ Fox was designed specifically for DivanMC but is anti-cheat compliant for most o
 - resistent again rendering DoS attacks
 ### How to install
 Fox is distributed via Github, and can be imported via zip in PrismMC
+
+
 <a class="button" href="https://github.com/toastxc/Fox-Client">Fox Client</a>
+</div>
