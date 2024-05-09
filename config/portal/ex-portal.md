@@ -12,7 +12,7 @@
         Github
     </div>
     <div class="box">
-        <a href="https://toastxc.xyz/status">
+        <a href="https://toastxc.xyz/s">
             <img src="https://repo.toastxc.xyz/web/kuma.svg" alt="UptimeKuma"/>
         </a>
         Status
