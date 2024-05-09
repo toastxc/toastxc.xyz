@@ -1,4 +1,9 @@
 ## About me
 <div class="holder">
-I like to spend my spare time creating things, for both myself and others. My projects range in complexity and usefulness and are mainly related to subjects I'm interested in. The source code to all of my projects can be found at my Github account.
+Hi I'm Toast! This is my site on the interwebs. I like programming in Rust, especially stuff todo with APIs and chat platforms. Look at the topnav for interesting stuff :3.
+</div>
+
+## Rockbox
+<div class="holder">
+Rockbox is my server, it runs everything here! Including media services and whatever I plan to run in future.
 </div>

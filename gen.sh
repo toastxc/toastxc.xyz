@@ -1,5 +1,14 @@
 #!/bin/bash
-adduce -c config/404 -n 404.html -o output
-adduce -c config/index -n index.html -o output
-adduce -c config/minecraft -n minecraft.html -o output
-adduce -c config/projects -n projects.html -o output
+s="config"
+t="target"
+
+# shellcheck disable=SC2045
+for item in $(ls -f config*)
+do
+  char=${item:0:1}
+if [ "$item" != "global" ] && [ "$char" != "_" ] && [ "$char" != "." ]; then
+    echo "$item"
+    adduce -c "$s/$item" -n "$item.html" -o $t
+  fi
+done
+

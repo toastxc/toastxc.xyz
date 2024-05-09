@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<head>
+<style>
+div {
+
+	border-width: 3px;
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.topnav a {
+    float: left;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 17px;
+    align-item: center;
+
+
+}
+.topnav a:hover {
+    background-color: #222;
+    color: white;
+}
+
+
+.holder {
+
+	background-color: #333;
+	border-radius: 10px;
+	text-align: left;
+	padding: 15px;
+}
+
+.inside {
+}
+
+
+/* Default Styling */
+
+div.page {
+    margin: auto;
+    width: 800px;
+}
+
+
+ @media only screen and (max-width: 900px) {
+    div.page {
+        margin: auto;
+        width: auto;
+    }
+}
+
+ @media only screen and (max-width: 500px) {
+    div.page {
+        margin: 0px;
+        width: 100%;
+        padding: 0px;
+
+    }
+ div.holder {
+        border-radius: 0%;
+        padding: 10px;
+        margin-left: -5px;
+        margin-right: -5px;
+
+    }
+
+ body {
+        padding: 0px;
+        margin: 0px;
+    }
+
+
+ div.topnav {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+
+ h2 {
+        margin-bottom: 0px;
+    }
+}
+
+
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+	background-color: #222;
+	color: white;
+	padding: 4px;
+
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+
+
+}
+
+
+a.button {
+
+    text-decoration: inherit;
+    color: white;
+    cursor: auto;
+    background-color: #b33;
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 4px;
+    margin: 10px;
+
+
+}
+a:hover {
+
+    background-color: #333;
+}
+/* Markdown Styling */
+
+h1 {
+
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+li {
+    margin: 10px;
+}
+
+bold {
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+italic {
+    font-style: italic;
+}
+
+quote, nestquote {
+    background: rgba(255, 255, 255, 0.3);
+    border-left: 3px solid rgba(255, 255, 255);
+    font-style: italic;
+    padding: 3px;
+    display: block;
+
+}
+
+nestquote {
+    margin-left: 15px;
+}
+
+.codeblock {
+    background-color: black;
+    border-radius: 4px;
+    color: lightgreen;
+    padding: 1px;
+    padding-left: 10px;
+}
+
+
+
+
+footer {
+
+    text-align: center;
+
+}
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="page">
+
+<h1>
+    ToastXC
+</h1>
+
+     <div class="topnav">
+         <a href="/">Home</a>
+         <a href="/projects.html">Portfolio</a>
+         <a href="/portal.html">Portal</a>
+         <a href="mailto:contact@toastxc.xyz">Contact</a>
+         <a href="/report.html">Report</a>
+     </div>
+    </br><h2>Adduce</h2>
+<div class="holder">
+    Adduce is a single-page static site generator, it can be used to easily and quickly generate web-pages and bundle them into a monolithic HTML file for easy deployment. Adduce takes a different approach to SSG, the elements are split up into markdown files that can be organised and ordered. The project is still very new and has many more features planned. The site you're reading from was made using Adduce!
+<p><a class="button" href="https://github.com/toastxc/Adduce">source</a></p>
+</div>
+<h2>PodboY</h2>
+<div class="holder" >
+For those unaware: podman is an open source container management system, similar to docker but different in a few key ways: daemonless, rootless and more secure. podboy is a tool for creating and managing systemd files (daemons) for podman. While not terribly complicated I rely on this program for my services.
+<p><a class="button" href="https://github.com/toastxc/podboy">source</a></p>
+</div>
+<h2>Proxus</h2>
+<div class="holder" >
+Proxus is a TCP proxy that uses TOML files for its configuration. Since this program is considered infrastructure it has been built to be extremely resilient: using best practises for error handling, multithreading and the best resistance Rust-lang has to offer.
+<p><a class="button" href="https://github.com/toastxc/proxus">source</a></p>
+</div>
+<h2>Material Egui</h2>
+<div class="holder">
+Material-egui takes a base color, and with that stylises Egui widgets with Material Design 3 colors for dark and light theme. Support is underway for M3 widgets.
+<p><a class="button" href="https://github.com/toastxc/material-egui">source</a></p>
+</div>
+<h2>Reywen.Revolt</h2>
+<div class="holder">
+    Reywen is a library for writing chatbots for the platform revolt.chat, it covers most of the Revolt API and has an been made from the ground up with developer experience in mind. The builder pattern provides a zero cost abstraction for the Revolt API while allowing for full control over bot functionality. I plan on extending functionality to Reywen and eventually making it the core of Revolt's GTK client (Mutiny).
+<p><a class="button" href="https://github.com/toastxc/Reywen-Revolt">source</a></p>
+</div>
+<h2>Rockbox</h2>
+<div class="holder">
+    Rockbox is my main Linux server for hosting all of my services (website, media center, minecraft network, and API servers), It is an on premises machine. It is running on Redhat Linux 8 and primarily uses Caddy web server and podman for handling requests.
+</div>
+
+
+    <footer>
+    <p>
+    Copyright ToastXC
+    <script>document.write(new Date().getFullYear())</script>
+    </p>
+    </footer>
+</div>
+</body>
