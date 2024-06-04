@@ -24,7 +24,7 @@ text = "Internal"
 
 # Main site info
 [[main.block]]
-from_str = "config/portal/in-portal.md"
+from_str = "config/portal/in-portal.html"
 style = "md"
 
 
@@ -33,7 +33,7 @@ style = "h3"
 text = "External"
 
 [[main.block]]
-from_str = "config/portal/ex-portal.md"
+from_str = "config/portal/ex-portal.html"
 style = "md"
 
 # breakline
