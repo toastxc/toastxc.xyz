@@ -17,7 +17,7 @@ style = "html"
 
 # Main site info
 [[main.block]]
-from_str = "config/report/report.md"
+from_str = "config/policies/policies.md"
 style = "md"
 
 # copyright
