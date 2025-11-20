@@ -2,7 +2,8 @@
 <div class="holder">
     Adduce is a single-page static site generator, it can be used to easily and quickly generate web-pages and bundle them into a monolithic HTML file for easy deployment. Adduce takes a different approach to SSG, the elements are split up into markdown files that can be organised and ordered. The project is still very new and has many more features planned. The site you're reading from was made using Adduce!
 
-<a class="button" href="https://github.com/toastxc/Adduce">source</a>
+<a class="button" href="https://adduce.vale.rocks">website</a>
+<a class="button" href="https://github.com/DeclanChidlow/Adduce">source</a>
 </div>
 
 

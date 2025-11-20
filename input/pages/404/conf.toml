@@ -1,0 +1,25 @@
+[main]
+
+[[main.block]]
+format = "html"
+content_file = "input/global/head.html"
+
+[[main.block]]
+format = "h1"
+content = "404"
+
+[[main.block]]
+format = "html"
+content_file = "input/global/topnav.html"
+
+[[main.block]]
+format = "h2"
+content = "We could not find this document"
+
+[[main.block]]
+format = "html"
+content = "<a class='button' href='index.html'>Return to home</a>"
+
+[[main.block]]
+format = "html"
+content_file = "input/global/footer.html"

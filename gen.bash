@@ -1,23 +1,19 @@
-#!/bin/bash
-s="config"
-t="target"
+#!/usr/bin/env bash
 
+# Generate standard pages
+pages=(
+	"input/pages/index index.html"
+	"input/pages/policies policies.html"
+	"input/pages/portal portal.html"
+	"input/pages/projects projects.html"
+	"input/pages/404 404.html"
+)
 
-mkdir -p $t
-
-# shellcheck disable=SC2045
-for item in $(ls -f config*)
-do
-  char=${item:0:1}
-if [ "$item" != "global" ] && [ "$char" != "_" ] && [ "$char" != "." ]; then
-    echo "$item"
-
-  if [ "$item" != "index" ]; then
-  mkdir -p "$t/$item"
-      adduce -c "$s/$item" -n "index.html" -o "$t/$item"
-  else
-    adduce -c "$s/$item" -n "$item.html" -o $t
-    fi
-  fi
+for page_config in "${pages[@]}"; do
+	page="${page_config%% *}"
+	output="${page_config#* }"
+	adduce -c "$page" -n "$output" -o target
 done
 
+# Copy global styles and assets
+cp -r input/global/style.css target/

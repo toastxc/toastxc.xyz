@@ -1,0 +1,17 @@
+[main]
+
+[[main.block]]
+format = "html"
+content_file = "input/global/head.html"
+
+[[main.block]]
+format = "h1"
+content = "StatSite"
+
+[[main.block]]
+format = "md"
+content_file = "input/pages/statsite/main.md"
+
+[[main.block]]
+format = "html"
+content_file = "input/global/footer.html"
