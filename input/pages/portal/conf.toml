@@ -1,0 +1,37 @@
+[main]
+
+[[main.block]]
+format = "html"
+content_file = "input/global/head.html"
+
+[[main.block]]
+format = "h1"
+content = "ToastXC"
+
+[[main.block]]
+format = "html"
+content_file = "input/global/topnav.html"
+
+[[main.block]]
+format = "style"
+content_file = "input/pages/portal/item-flex.css"
+
+[[main.block]]
+format = "h3"
+content = "Internal"
+
+[[main.block]]
+format = "md"
+content_file = "input/pages/portal/in-portal.html"
+
+[[main.block]]
+format = "h3"
+content = "External"
+
+[[main.block]]
+format = "md"
+content_file = "input/pages/portal/ex-portal.html"
+
+[[main.block]]
+content_file = "input/global/footer.html"
+format = "html"

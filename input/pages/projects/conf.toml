@@ -1,0 +1,21 @@
+[main]
+
+[[main.block]]
+format = "html"
+content_file = "input/global/head.html"
+
+[[main.block]]
+format = "h1"
+content = "ToastXC"
+
+[[main.block]]
+format = "html"
+content_file = "input/global/topnav.html"
+
+[[main.block]]
+format = "md"
+content_file = "input/pages/projects/projects.md"
+
+[[main.block]]
+format = "html"
+content_file = "input/global/footer.html"
